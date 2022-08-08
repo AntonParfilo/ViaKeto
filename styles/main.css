@@ -484,7 +484,7 @@
   box-shadow: none;
 }
 .page1 .page1__rc .page1__rcContent .discont {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/Discount.svg") no-repeat center right 12px;
+  background: url("/res/img/page1/input/Discount.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .firstname,
 .page1 .page1__rc .page1__rcContent .lastname {
