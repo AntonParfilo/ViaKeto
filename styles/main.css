@@ -50,9 +50,6 @@
   .page4 .block2__content {
     display: none !important;
   }
-  .block2_goketo {
-    margin-bottom: 20px;
-  }
 }
 @media (max-width: 820px) {
   .header__but {
@@ -80,6 +77,9 @@
 @media (max-width: 770px) {
   .page6 .carousel-indicators {
     bottom: -60px;
+  }
+  .page6 .page6__block1 {
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 620px) {
@@ -117,8 +117,20 @@
   .page2__contentBlock header span {
     font-size: 22px;
   }
+  .page3__header h1 {
+    font-size: 33px !important;
+  }
+  .page6 h1, .page6 h2 {
+    font-size: 33px !important;
+  }
+  .page6__block2 {
+    display: none;
+  }
+  .page6__block3 {
+    display: block !important;
+  }
 }
-.page6 .page6__block2 .block2__cc .block2__but, .page1 .page1__rc .page1__rcContent .page1__but, .header .header__container .rc .header__but {
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .wrap1__but, .page6 .page6__block2 .block2__cc .block2__but, .page1 .page1__rc .page1__rcContent .page1__but, .header .header__container .rc .header__but {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,10 +140,10 @@
   border-radius: 4px;
   padding: 18px, 0px, 18px, 0px;
 }
-.page6 .page6__block2 .block2__cc .block2__but:hover, .page1 .page1__rc .page1__rcContent .page1__but:hover, .header .header__container .rc .header__but:hover {
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .wrap1__but:hover, .page6 .page6__block2 .block2__cc .block2__but:hover, .page1 .page1__rc .page1__rcContent .page1__but:hover, .header .header__container .rc .header__but:hover {
   cursor: pointer;
 }
-.page6 .page6__block2 .block2__cc .block2__but span, .page1 .page1__rc .page1__rcContent .page1__but span, .header .header__container .rc .header__but span {
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .wrap1__but span, .page6 .page6__block2 .block2__cc .block2__but span, .page1 .page1__rc .page1__rcContent .page1__but span, .header .header__container .rc .header__but span {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
@@ -140,7 +152,7 @@
   text-align: center;
   color: #ffffff;
 }
-.page6 .page6__block2 .block2__cc .block2__but .header__butImg, .page1 .page1__rc .page1__rcContent .page1__but .header__butImg, .header .header__container .rc .header__but .header__butImg {
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .wrap1__but .header__butImg, .page6 .page6__block2 .block2__cc .block2__but .header__butImg, .page1 .page1__rc .page1__rcContent .page1__but .header__butImg, .header .header__container .rc .header__but .header__butImg {
   margin-left: 5px;
   width: 20px;
   height: 15px;
@@ -187,12 +199,12 @@
   color: #000000;
 }
 
-.page6 .page6__block2 .block2__cc .page1__rcFooter, .page1 .page1__rc .page1__rcFooter {
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .pwrap1__footer, .page6 .page6__block2 .block2__cc .page1__rcFooter, .page1 .page1__rc .page1__rcFooter {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.page6 .page6__block2 .block2__cc .page1__rcFooter span, .page1 .page1__rc .page1__rcFooter span {
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .pwrap1__footer span, .page6 .page6__block2 .block2__cc .page1__rcFooter span, .page1 .page1__rc .page1__rcFooter span {
   margin: 10px 0;
   font-style: normal;
   font-weight: 700;
@@ -204,10 +216,10 @@
   text-transform: capitalize;
   color: #000000;
 }
-.page6 .page6__block2 .block2__cc .page1__rcFooter div, .page1 .page1__rc .page1__rcFooter div {
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .pwrap1__footer div, .page6 .page6__block2 .block2__cc .page1__rcFooter div, .page1 .page1__rc .page1__rcFooter div {
   display: flex;
 }
-.page6 .page6__block2 .block2__cc .page1__rcFooter div svg, .page1 .page1__rc .page1__rcFooter div svg {
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .pwrap1__footer div svg, .page6 .page6__block2 .block2__cc .page1__rcFooter div svg, .page1 .page1__rc .page1__rcFooter div svg {
   height: 35px;
   width: 100px;
 }
@@ -455,6 +467,7 @@
   line-height: 105%;
   text-align: center;
   color: #fff;
+  margin: 0;
 }
 .page1 .page1__rc .page1__rcHeader h1 span {
   color: #f76d16;
@@ -847,6 +860,10 @@
 .page4 .page4__table .gray {
   background-color: #eaeaea;
 }
+.page4 .page4__table .black {
+  background-color: #333333;
+  color: #fff;
+}
 .page4 .page4__table .border_none {
   border: none;
 }
@@ -1123,6 +1140,7 @@
 }
 .page6 .page6__block2 .block2__cc .block2_goketo {
   min-height: 332px;
+  margin-bottom: 20px;
 }
 .page6 .page6__block2 .block2__cc .block2__CBDbhb {
   position: absolute;
@@ -1138,6 +1156,82 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.page6 .page6__block3 {
+  padding-top: 30px;
+  display: none;
+  min-height: 320px;
+  border-top: 3px #858383 solid;
+  border-bottom: 3px #858383 solid;
+}
+.page6 .page6__block3 .page6__wrap1 {
+  display: flex;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__lc {
+  width: 50%;
+  position: relative;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__lc h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  color: #1b3c9c;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__lc h3 {
+  font-family: "Oswald";
+  line-height: 0.9;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__lc .page6__images {
+  display: flex;
+  margin-top: 20px;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__lc .page6__images img {
+  width: 55px;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc {
+  width: 50%;
+  position: relative;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .page6__goketo {
+  position: absolute;
+  top: 13%;
+  left: 16%;
+  height: 150px;
+  z-index: 2;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .page6__CBDbhb {
+  position: absolute;
+  width: 51px;
+  top: 20px;
+  left: -35px;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .page6__vs {
+  position: absolute;
+  width: 100px;
+  top: 65px;
+  left: 17px;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .wrap1__but {
+  position: absolute;
+  top: 190px;
+  left: -10px;
+  height: 40px;
+  width: 170px;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .wrap1__but span {
+  font-size: 19px;
+  font-family: "Oswald";
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .pwrap1__footer {
+  position: absolute;
+  top: 240px;
+  left: -10px;
+}
+.page6 .page6__block3 .page6__wrap1 .wrap1__rc .pwrap1__footer img {
+  width: 170px;
 }
 
 footer {

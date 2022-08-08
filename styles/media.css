@@ -49,9 +49,6 @@
   .page4 .block2__content {
     display: none !important;
   }
-  .block2_goketo {
-    margin-bottom: 20px;
-  }
 }
 @media (max-width: 820px) {
   .header__but {
@@ -79,6 +76,9 @@
 @media (max-width: 770px) {
   .page6 .carousel-indicators {
     bottom: -60px;
+  }
+  .page6 .page6__block1 {
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 620px) {
@@ -115,5 +115,17 @@
   }
   .page2__contentBlock header span {
     font-size: 22px;
+  }
+  .page3__header h1 {
+    font-size: 33px !important;
+  }
+  .page6 h1, .page6 h2 {
+    font-size: 33px !important;
+  }
+  .page6__block2 {
+    display: none;
+  }
+  .page6__block3 {
+    display: block !important;
   }
 }

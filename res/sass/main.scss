@@ -350,6 +350,7 @@
         line-height: 105%;
         text-align: center;
         color: #fff;
+        margin: 0;
 
         span {
           color: #f76d16;
@@ -388,28 +389,28 @@
       }
       .firstname,
       .lastname {
-        background: url("../res/img/page1/input/First name.svg") no-repeat center
-          right 12px;
+        background: url("../res/img/page1/input/First name.svg") no-repeat
+          center right 12px;
       }
       .email {
-        background: url("../res/img/page1/input/mail.svg") no-repeat center right
-          12px;
+        background: url("../res/img/page1/input/mail.svg") no-repeat center
+          right 12px;
       }
       .phone {
-        background: url("../res/img/page1/input/smartphone.svg") no-repeat center
-          right 12px;
+        background: url("../res/img/page1/input/smartphone.svg") no-repeat
+          center right 12px;
       }
       .address {
         background: url("../res/img/page1/input/address.svg") no-repeat center
           right 12px;
       }
       .city {
-        background: url("../res/img/page1/input/city.svg") no-repeat center right
-          12px;
+        background: url("../res/img/page1/input/city.svg") no-repeat center
+          right 12px;
       }
       .province {
-        background: url("../res/img/page1/input/city.svg") no-repeat center right
-          12px;
+        background: url("../res/img/page1/input/city.svg") no-repeat center
+          right 12px;
       }
       .postal {
         background: url("../res/img/page1/input/zip.svg") no-repeat center right
@@ -777,6 +778,10 @@
     .gray {
       background-color: #eaeaea;
     }
+    .black {
+      background-color: #333333;
+      color: #fff;
+    }
     .border_none {
       border: none;
     }
@@ -1044,6 +1049,7 @@
       align-items: center;
       .block2_goketo {
         min-height: 332px;
+        margin-bottom: 20px;
       }
       .block2__CBDbhb {
         position: absolute;
@@ -1064,6 +1070,84 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+    }
+  }
+  .page6__block3 {
+    padding-top: 30px;
+    display: none;
+    min-height: 320px;
+    border-top: 3px #858383 solid;
+    border-bottom: 3px #858383 solid;
+    .page6__wrap1 {
+      display: flex;
+      .wrap1__lc {
+        width: 50%;
+        position: relative;
+        h2 {
+          font-family: "Oswald";
+          font-style: normal;
+          color: #1b3c9c;
+          font-size: 54px;
+          font-weight: 500;
+          line-height: 0.9;
+          text-transform: uppercase;
+        }
+        h3{
+          font-family: "Oswald";
+          line-height: 0.9;
+        }
+        .page6__images{
+          display: flex;
+          margin-top: 20px;
+          img{
+            width: 55px;
+          }
+        }
+      }
+      .wrap1__rc {
+        width: 50%;
+        position: relative;
+        .page6__goketo{
+          position: absolute;
+          top: 13%;
+          left: 16%;
+          height: 150px;
+          z-index: 2;
+        }
+        .page6__CBDbhb{
+          position: absolute;
+          width: 51px;
+          top: 20px;
+          left: -35px;
+        }
+        .page6__vs{
+          position: absolute;
+          width: 100px;
+          top: 65px;
+          left: 17px;
+        }
+        .wrap1__but{
+          position: absolute;
+          top: 190px;
+          left: -10px;
+          height: 40px;
+          width: 170px;
+          @extend %button;
+          span{
+            font-size: 19px;
+            font-family: "Oswald";
+          }
+        }
+        .pwrap1__footer{
+          @extend %footer1;
+          position: absolute;
+          top: 240px;
+          left: -10px;
+          img{
+            width: 170px;
+          }
+        }
+      }
     }
   }
 }
