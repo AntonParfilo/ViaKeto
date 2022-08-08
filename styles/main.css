@@ -484,29 +484,29 @@
   box-shadow: none;
 }
 .page1 .page1__rc .page1__rcContent .discont {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/Discount.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/Discount.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .firstname,
 .page1 .page1__rc .page1__rcContent .lastname {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/First name.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/First name.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .email {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/mail.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/mail.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .phone {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/smartphone.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/smartphone.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .address {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/address.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/address.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .city {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/city.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/city.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .province {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/city.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/city.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .postal {
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/zip.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/zip.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .page1__selectProvince {
   display: flex;
@@ -530,13 +530,13 @@
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url("https://ragaban.github.io/ViaKeto/res/img/page1/input/city.svg") no-repeat center right 12px;
+  background: url("../res/img/page1/input/city.svg") no-repeat center right 12px;
 }
 .page1 .page1__rc .page1__rcContent .page1__but {
   width: 100%;
 }
 .page2 {
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page2/bg.png");
+  background-image: url("../res/img/page2/bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 50px;
@@ -695,17 +695,13 @@
 
 .page3 .page3__headWrapper {
   min-height: 220px;
-<<<<<<< HEAD
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page3/Group3431.png");
-=======
-  background-image: url("./res/img/page3/Group 3431.png");
->>>>>>> 7a0c4a7bae421d1dbcc1fe9a25fe091f7eb92ab0
+  background-image: url("../res/img/page3/Group3431.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .page3 .page3__wrapper {
   min-height: 220px;
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page3/bg.png");
+  background-image: url("../res/img/page3/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -751,7 +747,7 @@
 }
 
 .page4 .page4__block1 {
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page4/bg arrow.svg");
+  background-image: url("../res/img/page4/bg arrow.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -962,7 +958,7 @@
 .page5 .container {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page5/line.png");
+  background-image: url("../res/img/page5/line.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1009,14 +1005,14 @@
 }
 .page5 .page5__rc {
   min-height: 600px;
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page5/Frame 3431.png");
+  background-image: url("../res/img/page5/Frame 3431.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .page6 .page6__block1 {
   padding-top: 41px;
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page6/line.png");
+  background-image: url("../res/img/page6/line.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1055,7 +1051,7 @@
   display: flex;
   justify-content: center;
   min-height: 314px;
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page6/collage.png");
+  background-image: url("../res/img/page6/collage.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1084,7 +1080,7 @@
   color: #000000;
 }
 .page6 .page6__block2 {
-  background-image: url("https://ragaban.github.io/ViaKeto/res/img/page6/line2.png");
+  background-image: url("../res/img/page6/line2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-top: 3px #858383 solid;
