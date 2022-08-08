@@ -1,0 +1,119 @@
+@media (max-width: 1120px) {
+  .header__topImg {
+    display: none;
+  }
+  .page1__rc {
+    padding: 0px 20px !important;
+  }
+}
+@media (max-width: 990px) {
+  .page2 {
+    background-image: none !important;
+  }
+  .page2 .page2__lc img {
+    display: none;
+  }
+  .page2 .page2__lc .page2__lc_img_large {
+    display: block !important;
+  }
+  .page2 .page2__lc .page2__lc_img_large img {
+    display: block !important;
+  }
+  .page2 .page2__contentBut {
+    position: static !important;
+    padding: 7px 40px;
+    margin-bottom: 20px;
+  }
+  .page2 .page2_blockFooter {
+    position: static !important;
+  }
+  .page2 .page2__contentBlock {
+    min-height: 350px !important;
+  }
+  .page2 .page2__contentBlock .page2__contentBut {
+    top: 42% !important;
+  }
+  .page2 .page2__contentBlock p {
+    font-size: 1rem !important;
+  }
+  .page2 .page2__vs {
+    top: 10px !important;
+    z-index: 3;
+  }
+  .page2 .page2__cc {
+    height: 100px !important;
+  }
+  .page4 .page4__table {
+    display: block !important;
+  }
+  .page4 .block2__content {
+    display: none !important;
+  }
+  .block2_goketo {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 820px) {
+  .header__but {
+    height: 50px !important;
+  }
+  .header__but span {
+    font-size: 18px !important;
+  }
+  .header__text2 {
+    display: none;
+  }
+  .page3__headWrapper {
+    min-height: 50px !important;
+  }
+  .page4__block1 {
+    display: none;
+  }
+  .page4__block1_1 {
+    display: block !important;
+  }
+  .page6__imagesBlock {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  .page6 .carousel-indicators {
+    bottom: -60px;
+  }
+}
+@media (max-width: 620px) {
+  .header__warningText {
+    padding: 0 5px;
+  }
+  .page1 .page1__header h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 62px !important;
+  }
+  .page1 .page1__header h3 {
+    font-size: 27px !important;
+  }
+  .page1 .page1__vector {
+    display: none;
+  }
+  .page1__rcHeader h1 {
+    font-size: 13px !important;
+  }
+  .page4 .page4__table td {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 520px) {
+  header .cc {
+    display: none !important;
+  }
+  header .rc {
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    height: 64px !important;
+  }
+  .page2__contentBlock header span {
+    font-size: 22px;
+  }
+}
