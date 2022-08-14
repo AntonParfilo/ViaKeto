@@ -51,12 +51,6 @@
   }
 }
 @media (max-width: 820px) {
-  .header__but {
-    height: 50px !important;
-  }
-  .header__but span {
-    font-size: 18px !important;
-  }
   .header__text2 {
     display: none;
   }
@@ -85,12 +79,8 @@
   .header__warningText {
     padding: 0 5px;
   }
-  .page1 .page1__header h1 {
-    font-family: Oswald, sans-serif;
-    font-size: 62px !important;
-  }
-  .page1 .page1__header h3 {
-    font-size: 27px !important;
+  header .cc {
+    display: none !important;
   }
   .page1 .page1__vector {
     display: none;
@@ -103,16 +93,6 @@
   }
 }
 @media (max-width: 520px) {
-  header .cc {
-    display: none !important;
-  }
-  header .rc {
-    width: 250px;
-    position: absolute;
-    right: 0;
-    top: 7px;
-    height: 64px !important;
-  }
   .page2__contentBlock header span {
     font-size: 22px;
   }

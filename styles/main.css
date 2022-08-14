@@ -52,12 +52,6 @@
   }
 }
 @media (max-width: 820px) {
-  .header__but {
-    height: 50px !important;
-  }
-  .header__but span {
-    font-size: 18px !important;
-  }
   .header__text2 {
     display: none;
   }
@@ -86,12 +80,8 @@
   .header__warningText {
     padding: 0 5px;
   }
-  .page1 .page1__header h1 {
-    font-family: Oswald, sans-serif;
-    font-size: 62px !important;
-  }
-  .page1 .page1__header h3 {
-    font-size: 27px !important;
+  header .cc {
+    display: none !important;
   }
   .page1 .page1__vector {
     display: none;
@@ -104,16 +94,6 @@
   }
 }
 @media (max-width: 520px) {
-  header .cc {
-    display: none !important;
-  }
-  header .rc {
-    width: 250px;
-    position: absolute;
-    right: 0;
-    top: 7px;
-    height: 64px !important;
-  }
   .page2__contentBlock header span {
     font-size: 22px;
   }
@@ -263,6 +243,9 @@
   min-height: 64px;
   margin: auto;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header .header__container .lc {
   display: flex;
@@ -272,6 +255,16 @@
 .header .header__container .lc .header__logo {
   width: 142px;
   height: 30px;
+}
+@media (max-width: 960px) {
+  .header .header__container .lc .header__logo {
+    width: calc(125px + 17 * ((100vw - 320px)/(960 - 320)));
+  }
+}
+@media (max-width: 960px) {
+  .header .header__container .lc .header__logo {
+    height: calc(20px + 10 * ((100vw - 320px)/(960 - 320)));
+  }
 }
 .header .header__container .cc {
   display: flex;
@@ -312,6 +305,36 @@
   justify-content: flex-end;
   height: 100%;
 }
+.header .header__container .rc .header__but {
+  width: auto;
+  height: 64px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.header .header__container .rc .header__but span {
+  font-size: 24px;
+}
+@media (max-width: 960px) {
+  .header .header__container .rc .header__but span {
+    font-size: calc(14px + 10 * ((100vw - 320px)/(960 - 320)));
+  }
+}
+@media (max-width: 960px) {
+  .header .header__container .rc .header__but {
+    height: calc(45px + 19 * ((100vw - 320px)/(960 - 320)));
+  }
+}
+@media (max-width: 960px) {
+  .header .header__container .rc .header__but {
+    padding-left: calc(5px + 12 * ((100vw - 320px)/(960 - 320)));
+  }
+}
+@media (max-width: 960px) {
+  .header .header__container .rc .header__but {
+    padding-right: calc(5px + 12 * ((100vw - 320px)/(960 - 320)));
+  }
+}
+
 .page1 {
   margin-top: 31px;
   max-width: 960px;
@@ -333,9 +356,20 @@
   font-weight: 400;
   font-size: 96px;
   line-height: 96px;
+  line-height: 96px;
   text-align: center;
   letter-spacing: -0.05em;
   color: #1b3c9c;
+}
+@media (max-width: 960px) {
+  .page1 .page1__lc .page1__header h1 {
+    font-size: calc(45px + 51 * ((100vw - 320px)/(960 - 320)));
+  }
+}
+@media (max-width: 960px) {
+  .page1 .page1__lc .page1__header h1 {
+    line-height: calc(45px + 51 * ((100vw - 320px)/(960 - 320)));
+  }
 }
 .page1 .page1__lc .page1__header h1 span {
   font-style: italic;
@@ -345,11 +379,23 @@
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
+  line-height: 48px;
+  font-size: 48px;
   line-height: 60px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: -0.01em;
+}
+@media (max-width: 960px) {
+  .page1 .page1__lc .page1__header h3 {
+    font-size: calc(27px + 21 * ((100vw - 320px)/(960 - 320)));
+  }
+}
+@media (max-width: 960px) {
+  .page1 .page1__lc .page1__header h3 {
+    line-height: calc(20px + 28 * ((100vw - 320px)/(960 - 320)));
+  }
 }
 .page1 .page1__lc .page1__header p {
   font-family: "Oswald";

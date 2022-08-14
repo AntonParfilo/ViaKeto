@@ -1,5 +1,25 @@
 @import "./media.scss";
 
+$maxWidthContainer : 960; //ограничивающий контейнер
+@mixin dynamicProperty($property, $minSize, $maxSize, $type){
+    $addSize : $maxSize - $minSize;
+    @if($type == 1){
+        #{$property}: #{$maxSize + px};
+        @media(max-width: #{$maxWidthContainer + px}){
+            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px)/(#{$maxWidthContainer} - 320)));
+        }
+    }
+    @else if($type == 2){
+      #{$property}: #{$maxSize + px};
+        @media(min-width: #{$maxWidthContainer + px}){
+            #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px)/(#{$maxWidthContainer} - 320)));
+        }
+    }
+    @else if($type == 3){
+        #{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vw - 320px)/(#{$maxWidthContainer} - 320)));
+    }
+}
+
 %button {
   display: flex;
   align-items: center;
@@ -13,6 +33,7 @@
     cursor: pointer;
   }
   span {
+    font-family: "Helvetica";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -121,15 +142,19 @@
     min-height: 64px;
     margin: auto;
     position: relative;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .lc {
       display: flex;
       align-items: center;
       height: 64px;
 
       .header__logo {
-        width: 142px;
-        height: 30px;
+        @include dynamicProperty(width, 125, 142, 1);
+        @include dynamicProperty(height, 20, 30, 1);
+        // max-width: 142px;
+        // max-height: 30px;
       }
     }
     .cc {
@@ -175,6 +200,13 @@
 
       .header__but {
         @extend %button;
+        span{
+          @include dynamicProperty(font-size, 14, 24, 1);
+        }
+        width: auto;
+        @include dynamicProperty(height, 45, 64, 1);
+        @include dynamicProperty(padding-left, 5, 17, 1);
+        @include dynamicProperty(padding-right, 5, 17, 1);
       }
     }
   }
@@ -201,7 +233,8 @@
       h1 {
         font-style: normal;
         font-weight: 400;
-        font-size: 96px;
+        @include dynamicProperty(font-size, 45, 96, 1);
+        @include dynamicProperty(line-height, 45, 96, 1);
         line-height: 96px;
         text-align: center;
         letter-spacing: -0.05em;
@@ -215,6 +248,8 @@
         font-family: "Oswald";
         font-style: normal;
         font-weight: 400;
+        @include dynamicProperty(font-size, 27, 48, 1);
+        @include dynamicProperty(line-height, 20, 48, 1);
         font-size: 48px;
         line-height: 60px;
         display: flex;
